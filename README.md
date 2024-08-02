@@ -23,7 +23,8 @@ Inside the landing/ directory, create the following subdirectories for your data
 
 Directory Structure:
 Your ADLS container structure should look like this:
-datapipeline/
+
+**datapipeline/
 ├── landing/
 │   ├── raw_customers/
 │   ├── raw_transactions/
@@ -32,7 +33,7 @@ datapipeline/
 │   ├── bronze/
 │   ├── silver/
 │   └── gold/
-└── checkpoints/
+└── checkpoints/**
 
 **Important note**: dont forgot to add your ADLS container Access keys in connections notebookunder access key value variable, you will be able to run this pipeline without any issue. 
 
